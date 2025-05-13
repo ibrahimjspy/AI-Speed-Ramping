@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Processing Complete</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <h1>Your video is ready!</h1>
+  <p><a href="{{ url_for('output_file', filename=output_file) }}">Download Ramped Clip</a></p>
+  <p><a href="{{ url_for('index') }}">Process another</a></p>
+</body>
+</html>

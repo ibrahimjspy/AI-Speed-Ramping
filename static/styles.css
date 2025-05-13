@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+form {
+  margin-bottom: 20px;
+}
+input[type="file"] {
+  margin-bottom: 10px;
+}
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+}
+

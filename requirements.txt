@@ -1,0 +1,6 @@
+Flask>=2.0
+Werkzeug>=2.0
+opencv-python>=4.5
+numpy>=1.19
+moviepy>=1.0
+requests>=2.25
