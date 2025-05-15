@@ -91,6 +91,8 @@ import requests
 
 @app.route('/get-speeds-from-url', methods=['POST'])
 def get_speeds_from_url():
+    os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
+    os.makedirs(app.config.get('OUTPUT_FOLDER', 'output'), exist_ok=True)
     data = request.get_json()
     video_url = data.get('video_url')
     if not video_url:
